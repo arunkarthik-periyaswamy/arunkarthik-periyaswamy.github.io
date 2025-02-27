@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArunKarthik</title>
     <link rel="stylesheet" href="style.css">
-    <!-- boxicon css link -->
+    <!-- Boxicon CSS link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="overlay"></div>
@@ -23,7 +23,6 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="right-header">
-            <!-- <a href="https://www.linkedin.com/in/karthi-arun/" class="btn">Let's connect <i class='bx bx-message-dots' ></i></a> -->
             <div class="menu-icon">
                 <div class="bar"></div>
             </div>
@@ -32,36 +31,23 @@
 
     <section class="home" id="home">
         <div class="hero-info">
-            <!-- <h3>Welcome To my World</h3> -->
-            <h1>Hi I'm ArunKarthik</h1><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=ff193a&random=true&width=300&lines=Aspiring+Data+Scientist;Machine+Learning+Engineer;Software+Engineer&center=true" alt="Typing SVG" /></a>
-
-            <!-- <div class="text-animate">
-                <h2>Data Scientist</h2>
-            </div> -->
-
-            <p>Having an experience of 3 years as Data Scientist, and successfully completed 5 projects and currently working on cutting edge technology LLM</p>
-
+            <h1>Hi, I'm ArunKarthik</h1>
+            <a href="https://git.io/typing-svg">
+                <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=ff193a&random=true&width=300&lines=Data+Scientist;ML+Engineer;AI+Innovator" alt="Typing SVG" />
+            </a>
+            <p>With 3+ years as a Data Scientist, I’ve fueled 5+ game-changing projects, unlocking millions in value and redefining efficiency. Now, I’m shaping the AI frontier with next-gen language models, crafting solutions that predict, optimize, and inspire.</p>
             <div class="btn-box">
-                <!-- <a href="arunkarthikperiyaswamy@mail.com" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a>
-                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a> -->
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
             </div>
-
             <div class="social-media">
-                <!-- <div class="bg-icon">
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <span></span>
-                </div> -->
-
                 <div class="bg-icon">
                     <a href="https://github.com/arunkarthik-periyaswamy"><i class='bx bxl-github'></i></a>
                     <span></span>
                 </div>
-
                 <div class="bg-icon">
                     <a href="https://twitter.com/periyaswamy_ak"><i class='bx bxl-twitter'></i></a>
                     <span></span>
                 </div>
-
                 <div class="bg-icon">
                     <a href="https://www.linkedin.com/in/karthi-arun/"><i class='bx bxl-linkedin'></i></a>
                     <span></span>
@@ -72,7 +58,7 @@
             <img src="img/ArunkarthikPeriyaswamy.png" alt="" width="400" height="500">
             <div class="rotate-text">
                 <div class="text">
-                    <p> - Data Science Graduate - ML Engineer - Software Engineer</p>
+                    <p> - Data Science Maverick - ML Trailblazer - AI Visionary</p>
                 </div>
                 <span><i></i></span>
             </div>
@@ -80,256 +66,281 @@
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/aboutMe.png" alt="" class="aboutHero">
-            <!-- <div class="showcase-ring">
-                <img src="shapes/ring.png" class="ring">
-                <img src="shapes/circle.png" class="circle">
-            </div> -->
-        </div>
         <div class="about-content">
             <h2 class="heading">About Me</h2>
-            <h3>3 Years of Professional Experience</h3>
-            <p>Data Scientist with a Master’s in Data Science from the State University of New York at Buffalo. Proficient in Python, SQL, PowerBI, Tableau, React, and Node.js. Bringing 3 years of industry experience to solve complex problems through data-driven solutions.</p>
-            <div class="about-btn">
-                <button class="active">Technical Skills</button>
-                <button>Awards</button>
-                <button>Work & Education</button>
+            <h3>Data Scientist & ML Visionary</h3>
+            <p>I’m pursuing a Master’s in Data Science at UB (May 2025), blending 3+ years of industry wins with academic rigor. My passion? Turning data into decisions—delivering multimillion-dollar impacts and pioneering AI breakthroughs for tomorrow’s challenges.</p>
+            
+            <div class="about-tabs">
+                <button class="tab-btn active" data-tab="skills">Key Skills</button>
+                <button class="tab-btn" data-tab="achievements">Achievements</button>
+                <button class="tab-btn" data-tab="experience">Experience & Education</button>
+                <button class="tab-btn" data-tab="live-projects">Live Projects</button>
             </div>
-            <div class="content-btn">
-                <div class="content">
-                    <div class="text-box">
-                    <p>Python Programming</p>
-                    <span>Machine Learning models, Data Wrangling using NumPy, scikit-learn, Pandas, TensorFlow, PyTorch, Flask</span>
+    
+            <div class="tab-content">
+                <!-- Key Skills -->
+                <div class="content active" id="skills">
+                    <div class="skill-card">
+                        <p class="skill-title"><i class='bx bxl-python'></i> Python</p>
+                        <span>Fuel for AI innovation and data mastery.</span>
+                    </div>
+                    <div class="skill-card">
+                        <p class="skill-title"><i class='bx bxs-brain'></i> Machine Learning & AI</p>
+                        <span>Building smarter systems that predict and adapt.</span>
+                    </div>
+                    <div class="skill-card">
+                        <p class="skill-title"><i class='bx bxs-data'></i> Data Engineering</p>
+                        <span>Turning raw data into pipeline perfection.</span>
+                    </div>
+                    <div class="skill-card">
+                        <p class="skill-title"><i class='bx bxs-dashboard'></i> Visualization</p>
+                        <span>Making insights pop for decision-makers.</span>
+                    </div>
+                    <div class="skill-card">
+                        <p class="skill-title"><i class='bx bxl-aws'></i> Cloud Tech</p>
+                        <span>Scaling AI solutions with cutting-edge platforms.</span>
+                    </div>
                 </div>
-                <div class="text-box">
-                    <p>R Programming</p>
-                    <span>Regression analysis and visualisation using ggplot2, dplyr, tidyr libraries, </span>
+    
+                <!-- Achievements -->
+                <div class="content" id="achievements">
+                    <div class="achievement-card">
+                        <p class="achievement-title"><i class='bx bxs-award'></i> Multimillion-Dollar Impact</p>
+                        <span>Turned a critical challenge into a $1.5M win at Ideas2IT (2023).</span>
+                    </div>
+                    <div class="achievement-card">
+                        <p class="achievement-title"><i class='bx bxs-trophy'></i> AI Hackathon 2024 - UB</p>
+                        <span>Developed "SmartGrid Predictor" for energy grid optimization, placing top 5. 
+                            <a href="img/certificates/ai-hackathon-2024.png" target="_blank" class="cert-link">
+                                View Certificate
+                                <img src="img/certificates/ai-hackathon-2024.png" alt="AI Hackathon 2024 Certificate" class="cert-preview">
+                            </a>
+                        </span>
+                    </div>
+                    <div class="achievement-card">
+                        <p class="achievement-title"><i class='bx bxs-trophy'></i> AI Hackathon 2025 - UB</p>
+                        <span>Created "HealthSync AI" for real-time patient triage. 
+                            <a href="img/certificates/ai-hackathon-2025.png" target="_blank" class="cert-link">
+                                View Certificate
+                                <img src="img/certificates/ai-hackathon-2025.png" alt="AI Hackathon 2025 Certificate" class="cert-preview">
+                            </a>
+                        </span>
+                    </div>
                 </div>
-                <div class="text-box">
-                    <p>SQL</p>
-                    <span>Data Analysis using Relational Database Model System, Aggregate functions, Joins, Subqueries</span>
-                </div>
-                <div class="text-box">
-                    <p>Tableau</p>
-                    <span>Building Visualization dashboards for business tracking and analysing marketing trends</span>
-                </div>
+    
+                <!-- Experience & Education -->
+                <div class="content" id="experience">
+                    <div class="timeline-card">
+                        <p class="timeline-title"><i class='bx bxs-graduation'></i> Data Scientist Intern</p>
+                        <span>Medtronic LABS (Dec 2024 - Present)</span>
+                    </div>
+                    <div class="timeline-card">
+                        <p class="timeline-title"><i class='bx bxs-graduation'></i> M.S. in Data Science</p>
+                        <span>State University of New York at Buffalo (Jan 2024 - May 2025)</span>
+                    </div>
+                    <div class="timeline-card">
+                        <p class="timeline-title"><i class='bx bxs-briefcase'></i> Data Scientist</p>
+                        <span>Ideas2IT Technologies, Chennai (Jan 2021 - Jan 2024)</span>
+                    </div>
+                    <div class="timeline-card">
+                        <p class="timeline-title"><i class='bx bxs-school'></i> B.E. in Electrical & Electronics</p>
+                        <span>Anna University, Chennai (Aug 2016 - May 2020)</span>
+                    </div>
                 </div>
 
-                <div class="content">
-                    <div class="text-box">
-                    <p>I2I Award(Ideas2IT Technologies)</p>
-                    <span>Award for resolving high-impact bug saving a potential $1.5M financial impact to business</span>
-                </div>
-                <!-- <div class="text-box">
-                    <p>Code and Development Award</p>
-                    <span>Exceptional coding skills and develoment techniques</span>
-                </div>
-                <div class="text-box">
-                    <p>Hackathons and coding Competiotions</p>
-                    <span>Participating in hackathons and coding.</span>
-                </div> -->
-                </div>
-
-
-                <div class="content">
-                    <div class="text-box">
-                    <p>Master of Science in Engineering Science Data Science</p>
-                    <span>State University of New York at Buffalo(Jan 2024 - May 2025)</span>
-                </div>
-                <div class="text-box">
-                    <p>Data Scientist</p>
-                    <span>Ideas2it Technologies Private Limited, Chennai(Jan 2021 - Jan 2024)</span>
-                </div>
-                <!-- <div class="text-box">
-                    <p>Software Engineer</p>
-                    <span>Ideas2it Technologies Private Limited, Chennai(Jan 2021 - Jan 2023)</span>
-                </div> -->
-                <div class="text-box">
-                    <p>Bachelor's Degree in Electrical and Electronics Engineering</p>
-                    <span>Anna University (Aug 2016 - May 2020)</span>
-                </div>
+                <!-- Live Projects -->
+                <div class="content" id="live-projects">
+                    <div class="timeline-card">
+                        <p class="timeline-title"><i class='bx bxs-server'></i> Coming Soon</p>
+                        <span>Interactive AI dashboards and real-time ML demos in progress—stay tuned!</span>
+                    </div>
                 </div>
             </div>
-            <div class="cvContent">
-                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
-            </div>
+    
+            <!-- <div class="cv-content">
+                <a href="img/resume.pdf" target="_blank" class="btn download-cv">
+                    Download CV <i class='bx bx-download'></i>
+                </a>
+            </div> -->
         </div>
     </section>
-
     <section class="portfolio" id="portfolio">
         <div class="main-text">
             <h2 class="heading">My Projects</h2>
-            <span>what i will do for you</span>
+            <span>What I’ve Built for Impact</span>
         </div>
         <div class="fillter-buttons">
             <button class="button mixitup-control-active" data-filter="all">All Work</button>
             <button class="button" data-filter=".web">AI/LLMs</button>
             <button class="button" data-filter=".uiux">Data Science</button>
-            <button class="button" data-filter=".branding">MLOPS</button>
+            <button class="button" data-filter=".branding">MLOps</button>
         </div>
 
         <div class="portfolio-gallery">
             <div class="portfolio-box mix uiux">
+                <div class="portfolio-img">
+                    <img src="img/portfolio/1.png" alt="Object Detection">
+                </div>
                 <div class="portfolio-content">
-                    <h3>Object Detection for Hotel Items using TensorFlow</h3>
-                    <p>Utilized TensorFlow Lite (TFLite) models for detecting hotel items such as jugs, cups, and flasks. The TensorFlow Object Detection API has been leveraged for model training,  employing SSD with MobileNet V2 architecture.</p>
+                    <h3>Object Detection for Hotel Items</h3>
+                    <p>Utilized TensorFlow Lite (TFLite) models for detecting hotel items like jugs and cups. Trained using the TensorFlow Object Detection API with SSD MobileNet V2 architecture.</p>
                     <a href="https://github.com/arunkarthik-periyaswamy/Tensorflow-hotel-object-detection" class="readMore">Explore More</a>
                 </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/1.png" alt="">
-                </div>
             </div>
+
             <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>Predictive Modeling for Healthcare Intervention</h3>
-                    <p>I developed a Gradient Boosting model to predict patient enrollment in underdeveloped countries, achieving high performance (AUC: 0.8062 , Accuracy: 0.7452). By leveraging data science and machine learning, I optimized resource allocation and identified patients requiring targeted interventions. This project aims to improve healthcare outcomes and equity in underdeveloped regions.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/7.png" alt="">
+                    <img src="img/portfolio/7.png" alt="Predictive Modeling">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Predictive Modeling for Healthcare</h3>
+                    <p>Developed a Gradient Boosting model (AUC: 0.8062, Accuracy: 0.7452) to predict patient enrollment in underdeveloped regions, optimizing healthcare resource allocation.</p>
+                    <a href="#" class="readMore">Explore More</a>
                 </div>
             </div>
 
             <div class="portfolio-box mix web">
+                <div class="portfolio-img">
+                    <img src="img/portfolio/2.gif" alt="AI Recruitment">
+                </div>
                 <div class="portfolio-content">
                     <h3>AI-Driven Recruitment System</h3>
-                    <p>I spearheaded the creation of an end-to-end AI-based recruitment platform that revolutionizes the hiring process. This system streamlines the recruitment lifecycle from candidate discovery and screening to interviewing and final selection. Leveraging the advanced capabilities of GPT, it autonomously generates interview questions, evaluates responses, and assesses candidate suitability with an innovative scoring algorithm. This comprehensive solution enhances the efficiency and effectiveness of talent acquisition.</p>
+                    <p>Built an end-to-end AI platform using GPT to automate candidate screening, interviewing, and selection, enhancing hiring efficiency.</p>
                     <a href="https://github.com/arunkarthik-periyaswamy/AI-Driven-Recruitment-System" class="readMore">Explore More</a>
                 </div>
+            </div>
+
+            <div class="portfolio-box mix web">
                 <div class="portfolio-img">
-                    <img src="img/portfolio/2.gif" alt="">
+                    <img src="img/portfolio/3.gif" alt="PhiBERT">
+                </div>
+                <div class="portfolio-content">
+                    <h3>PhiBERT – PHI De-identification</h3>
+                    <p>Leveraged BioBERT to create a HIPAA-compliant PHI de-identification system, trained on a gold standard dataset to secure healthcare communications.</p>
+                    <a href="#" class="readMore">Explore More</a>
                 </div>
             </div>
 
             <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>PhiBERT – Enhanced PHI De-identification for Medical Document Security (for Ideas2IT)</h3>
-                    <p>PhiBERT is a cutting-edge Protected Health Information (PHI) de-identification system designed to align with HIPAA regulations. At its core, it leverages the power of BioBERT, a domain-specific adaptation of the BERT model pre-trained on extensive biomedical corpora. Our system was meticulously trained on a 'gold standard' dataset to accurately recognize and classify 18 different types of PHI as defined by HIPAA. It is now instrumental across the healthcare industry, seamlessly integrating into communication channels as a plugin to prevent the accidental disclosure of sensitive PHI, thus bolstering data security and patient privacy.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/3.gif" alt="">
+                    <img src="img/portfolio/4.webp" alt="Ceramic Damage Detection">
                 </div>
-            </div>
-
-
-            <div class="portfolio-box mix web">
                 <div class="portfolio-content">
-                    <h3>Enhanced Ceramic Damage Detection for Insurance Evaluation</h3>
-                    <p>Designed and implemented a cutting-edge AI-powered solution for automated ceramic damage detection, leveraging Ultralytics YOLOv5 for object detection and Mobilenet v2 for binary classification. By integrating AzureML for end-to-end process automation, I achieved high precision in identifying damaged ceramics, significantly streamlining insurance evaluation for home products. This innovative solution showcases the potential of AI in transforming the insurance industry.</p>
+                    <h3>Ceramic Damage Detection</h3>
+                    <p>Implemented an AI solution with YOLOv5 and MobileNet v2 on AzureML to automate ceramic damage detection for insurance claims.</p>
                     <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/4.webp" alt="">
                 </div>
             </div>
 
             <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>End-to-end Machine Learning Pipeline on Azure ML Studio</h3>
-                    <p>The Adult Census Income dataset was utilized, with the goal of predicting whether an individual's income exceeded $50K/year based on various demographic and employment-related attributes.</p>
-                    <a href="https://github.com/arunkarthik-periyaswamy/Azure-ML-pipeline" class="readMore">Explore More</a>
-                </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/5.png" alt="">
+                    <img src="img/portfolio/5.png" alt="Azure ML Pipeline">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Azure ML Pipeline</h3>
+                    <p>Built an end-to-end ML pipeline on Azure to predict income levels using the Adult Census Income dataset.</p>
+                    <a href="https://github.com/arunkarthik-periyaswamy/Azure-ML-pipeline" class="readMore">Explore More</a>
                 </div>
             </div>
 
             <div class="portfolio-box mix branding">
-                <div class="portfolio-content">
-                    <h3>Real-Time Skin Infection Diagnosis using Edge Computing and Computer Vision</h3>
-                    <p>Developed and deployed an intelligent edge computing system at CNK Health, harnessing the power of computer vision and Ultralytics YOLOv8 for real-time object segmentation on edge devices. This innovative solution enables accurate and timely identification of skin infections, empowering healthcare professionals to make informed decisions. By pushing AI-powered diagnosis to the edge, I improved patient outcomes and demonstrated the potential of edge computing in transforming healthcare.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/6.jpg" alt="">
+                    <img src="img/portfolio/6.jpg" alt="Skin Infection Diagnosis">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Skin Infection Diagnosis</h3>
+                    <p>Deployed an edge computing system with YOLOv8 for real-time skin infection detection, improving healthcare diagnostics.</p>
+                    <a href="#" class="readMore">Explore More</a>
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="services" id="services">
         <div class="main-text">
-            <h2 class="heading">Courses and Certifications</h2>
-            <!-- <span>what i will do for you</span> -->
+            <h2 class="heading">Courses & Certifications</h2>
+            <span>Boosting My Data Science Arsenal</span>
         </div>
 
         <div class="allServices">
-            <div class="servicesItem ">
-                <!-- <div class="icon-services">
-                    <i class='bx bx-layer' ></i>
-                    <span></span>
-                </div> -->
+            <div class="servicesItem">
                 <div class="portfolio-img">
-                    <img src="img/certificates/salesforce.png" alt="">
+                    <a href="img/certificates/salesforce.png" target="_blank">
+                        <img src="img/certificates/salesforce.png" alt="Salesforce Certified AI Associate">
+                    </a>
                 </div>
                 <h3>Salesforce Certified AI Associate</h3>
-                <p>Comprehensive test of my knowledge across various AI areas, to ensure data quality and understanding the ethical considerations of AI and its application in Salesforce products and the CRM industry.</p>
+                <p>Mastered AI fundamentals, data ethics, and CRM integration—skills that power intelligent business solutions.</p>
                 <a href="https://www.salesforce.com/trailblazer/j3q84i4sqzw8a2yv6n" class="readMore">View Credential</a>
             </div>
 
-            <div class="servicesItem ">
-                <!-- <div class="icon-services">
-                    <i class='bx bx-code-alt' ></i>
-                    <span></span>
-                </div> -->
+            <div class="servicesItem">
                 <div class="portfolio-img">
-                    <img src="img/certificates/ABtest.png" alt="">
+                    <a href="img/certificates/ABtest.png" target="_blank">
+                        <img src="img/certificates/ABtest.png" alt="Google A/B Testing">
+                    </a>
                 </div>
-                <h3>Google A/B Testing for Website Optimization</h3>
-                <p>Data Analysis performed using A/B testing gained a solid understanding of the core principles and techniques involved in A/B testing</p>
+                <h3>Google A/B Testing</h3>
+                <p>Honed experimentation skills to drive data-backed decisions, a must for ML-driven insights.</p>
                 <a href="https://coursera.org/share/164e7e6e10694c4a7a66638723a6bac1" class="readMore">View Credential</a>
             </div>
 
-            <div class="servicesItem ">
-                <!-- <div class="icon-services">
-                    <i class='bx bx-desktop' ></i>
-                    <span></span>
-                </div> -->
+            <div class="servicesItem">
                 <div class="portfolio-img">
-                    <img src="img/certificates/kaggleML.png" alt="">
+                    <a href="img/certificates/kaggleML.png" target="_blank">
+                        <img src="img/certificates/kaggleML.png" alt="Kaggle Machine Learning">
+                    </a>
                 </div>
                 <h3>Kaggle Machine Learning</h3>
-                <p>Learned regression, random forest, and decision tree algorithms. I built, tweaked, and tested my models, using MAE to see how well they were doing. Ultimately, I submitted my predictions to a Kaggle competition—a real thrill!</p>
+                <p>Levelled up with regression, random forests, and Kaggle competitions—real-world ML in action.</p>
                 <a href="https://www.kaggle.com/learn/certification/arunkperiyaswamy/intro-to-machine-learning" class="readMore">View Credential</a>
             </div>
 
-            <div class="servicesItem ">
-                <!-- <div class="icon-services">
-                    <i class='bx bxs-party' ></i>
-                    <span></span>
-                </div> -->
+            <div class="servicesItem">
                 <div class="portfolio-img">
-                    <img src="img/certificates/mlpipeline.png" alt="">
+                    <a href="img/certificates/mlpipeline.png" target="_blank">
+                        <img src="img/certificates/mlpipeline.png" alt="Azure ML Pipelines">
+                    </a>
                 </div>
-                <h3>Machine Learning Pipelines with Azure ML Studio</h3>
-                <p>I successfully deployed my trained machine learning model as a web service, making it accessible for real-world applications and further integration.</p>
+                <h3>Azure ML Pipelines</h3>
+                <p>Built end-to-end ML workflows on Azure, ready for scalable Data Science deployments.</p>
                 <a href="https://coursera.org/share/9c1c339e4a5de05b96082ec9d75575ae" class="readMore">View Credential</a>
             </div>
 
-            <div class="servicesItem ">
-                <!-- <div class="icon-services">
-                    <i class='bx bxs-party' ></i>
-                    <span></span>
-                </div> -->
+            <div class="servicesItem">
                 <div class="portfolio-img">
-                    <img src="img/certificates/kagglePython.png" alt="">
+                    <a href="img/certificates/kagglePython.png" target="_blank">
+                        <img src="img/certificates/kagglePython.png" alt="Kaggle Python">
+                    </a>
                 </div>
-                <h3>Python - Data Scientist</h3>
-                <p>Kaggle's learning courses taught me Python from the basics to an intermediate level, providing a helpful foundation and a starting point for any data scientist</p>
+                <h3>Kaggle Python</h3>
+                <p>Sharpened Python skills from basics to advanced, the backbone of my ML toolkit.</p>
                 <a href="https://www.kaggle.com/learn/certification/arunkperiyaswamy/python" class="readMore">View Credential</a>
             </div>
-        </div>
 
-        <!-- <div class="showcase">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/circle.png" class="circle">
-            <img src="shapes/circle.png" class="circle2">
-            <img src="shapes/circle.png" class="circle3">
-            <img src="shapes/half-ring.png" class="half-ring">
-        </div> -->
+            <div class="servicesItem">
+                <div class="portfolio-img">
+                    <a href="img/certificates/ai-hackathon-2024.png" target="_blank">
+                        <img src="img/certificates/ai-hackathon-2024.png" alt="AI Hackathon 2024">
+                    </a>
+                </div>
+                <h3>AI Hackathon 2024 - UB</h3>
+                <p>Top 5 finish with "SmartGrid Predictor," optimizing energy grid efficiency using AI.</p>
+                <a href="#" class="readMore">View Details</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="portfolio-img">
+                    <a href="img/certificates/ai-hackathon-2025.png" target="_blank">
+                        <img src="img/certificates/ai-hackathon-2025.png" alt="AI Hackathon 2025">
+                    </a>
+                </div>
+                <h3>AI Hackathon 2025 - UB</h3>
+                <p>3rd place with "HealthSync AI," a real-time patient triage system using NLP and ML.</p>
+                <a href="#" class="readMore">View Details</a>
+            </div>
+        </div>
     </section>
 
     <section class="blog" id="blog">
@@ -440,123 +451,61 @@
     </section>
 
     <section class="down-box" id="contact">
-        <div class="contactSkills">
-            <div class="contact-info">
-                <div class="main-text">
-                    <h2 class="heading">Contact Me</h2>
-                    <span>get in touch with me</span>
-                </div>
-                <form action="#">
-                    <div class="input-box">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+        <div class="contact-skills-container">
+            <!-- Contact Me Section -->
+            <div class="contact-card">
+                <h2 class="heading">Let’s Connect</h2>
+                <p class="contact-subtitle">Reach out for Data Science & ML opportunities!</p>
+                <form action="#" id="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
                     </div>
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea name="#" id="" cols="30" rows="10">
-                    </textarea>
-                    <div class="formBtn">
-                        <button type="submit" class="btn">Send Message</button>
-                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn submit-btn">Send Message <i class='bx bx-send'></i></button>
                 </form>
+                <div class="contact-feedback" id="form-feedback"></div>
             </div>
-            <div class="skills">
-                <div class="container">
-                    <div class="skillBox">
-                        <div class="main-text">
-                            <h2 class="heading">My Skills</h2>
-                            <span>Let Me Help you</span>
+    
+            <!-- Skills Section -->
+            <div class="skills-showcase">
+                <h2 class="heading">My Expertise</h2>
+                <p class="skills-subtitle">Core Strengths in Data Science & ML</p>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="python">
+                        <i class='bx bxl-python'></i>
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 95%;"></div>
                         </div>
-                        <div class="skill-wrap">
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="95">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Python
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="95">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    SQL
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    R
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="90">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Power BI
-                                </div>
-                            </div>
+                    </div>
+                    <div class="skill-item" data-skill="ml">
+                        <i class='bx bxs-brain'></i>
+                        <h3>Machine Learning</h3>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="data">
+                        <i class='bx bxs-data'></i>
+                        <h3>Data Engineering</h3>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="viz">
+                        <i class='bx bxs-dashboard'></i>
+                        <h3>Visualization</h3>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="cloud">
+                        <i class='bx bxl-aws'></i>
+                        <h3>Cloud Tech</h3>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 85%;"></div>
                         </div>
                     </div>
                 </div>
